@@ -111,8 +111,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "::set-output name=pwd::$(pwd)"
-        git config --global user.name "ItzKaguya"
-        git config --global user.email "admin@itzkaguya.net"
+        git config --global user.name "Littletsu"
+        git config --global user.email "38116582+littletsu@users.noreply.github.com"
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
           
